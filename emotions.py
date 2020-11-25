@@ -10,6 +10,12 @@ from tensorflow.keras.layers import MaxPooling2D
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+# namespace tensorflow {
+# const int INFO = 0;            // base_logging::INFO;
+# const int WARNING = 1;         // base_logging::WARNING;
+# const int ERROR = 2;           // base_logging::ERROR;
+# const int FATAL = 3;           // base_logging::FATAL;
+# const int NUM_SEVERITIES = 4;  // base_logging::NUM_SEVERITIES;
 
 # command line argument
 ap = argparse.ArgumentParser()
